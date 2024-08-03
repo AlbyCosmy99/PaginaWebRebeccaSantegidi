@@ -323,10 +323,24 @@ div.tableRow p{
     color: #efebe5;
     text-align: left;
 }
-.feste, .matrimoni{
+.feste, .matrimoni, .sogni{
     margin: 1rem;
 }
 
+p{
+    color:#623e2a;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+img{
+    padding-top: 1rem;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   }
 
 .index-img{
     width: 50%;
