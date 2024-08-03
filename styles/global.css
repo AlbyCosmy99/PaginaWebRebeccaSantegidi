@@ -147,3 +147,13 @@ a:hover{
 	justify-content: space-evenly;
 	margin-top: 1%;
 }
+
+h1{
+    color: #623e2a;
+    text-align: center;
+}
+
+#title {
+    color: #efebe5;
+    font-size: 2rem;
+}

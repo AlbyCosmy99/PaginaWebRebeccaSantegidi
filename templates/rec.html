@@ -9,37 +9,12 @@
       <link rel="stylesheet" href="../styles/global.css">
       <link rel="stylesheet" href="../styles/rec.css">
       <script  src="https://www.gstatic.com/charts/loader.js"></script>
-    <script >
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['1 stella',     2],
-          ['2 stelle',      7],
-          ['3 stelle',  15],
-          ['4 stelle', 200],
-          ['5 stelle',    345]
-        ]);
-
-        var options = {
-          title: 'Recensioni',
-          is3D: false,
-          
-        };
-
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
-        chart.draw(data, options);
-      }
-    </script>
       <title>Recensioni</title>
-
    </head>
    <body>
       <header class="main-header">
          <div class="container">
-            <a href="../index.html" class="logo">TRE-EVENTS</a>
+            <a href="../index.html" class="logo"><h1 id="title">TRE-EVENTS</h1></a>
             <nav class="main-nav">
                <ul class="main-nav-list">
                   <li>
@@ -167,5 +142,6 @@
             <a href="https://1drv.ms/p/c/5d240dc371e15e53/ES0DZv6bG_VHtS7Q5dvcWt0BCKDSrJC5y_FTc4PxQZA-tQ?e=J38YUr"><h3 class="progetto-text">Progetto</h3></a>
          </div>
       </footer>
+      <script src="../scripts/rec.js"></script>
    </body>
 </html>

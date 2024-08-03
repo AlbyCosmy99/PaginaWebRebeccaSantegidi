@@ -60,14 +60,13 @@
 {
 	color:black;
 }
-h1{
-    color: #623e2a;
-    text-align: center;
-}
 
 #piechart_3d{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding-bottom: 5%;
+    padding-bottom: 1.5rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
 }
