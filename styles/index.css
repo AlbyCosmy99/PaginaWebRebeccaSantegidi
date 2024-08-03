@@ -1,59 +1,8 @@
-*{
-    margin: 0;
-}
-
 @font-face {
     font-family: CatchyMager;
     src: url("assets/Catchy Mager Regular.ttf");
 }
-body{
-    font-family: CatchyMager;
-    font-style: normal;
-    color: #efebe5;
-    background-color: #efebe5;
-}
 
-a{
-    color: #efebe5;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #acacac;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-.main-header{
-    background: #623e2a;
-}
-
-.container {
-	max-width: 100%;
-	margin: 0%;
-}
-    
-
-.main-header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-.main-nav li {
-	display: inline;
-}
-.main-nav a {
-	display: inline-block;
-	padding: .5em 1.5em;
-}
 h1{
     color: #623e2a;
     text-align: center;
@@ -77,11 +26,6 @@ p{
 .Contatti1{
     color: #efebe5;
     text-align: left;
-} 
-.social1{
-    color: #efebe5;
-    text-align: left;
-    padding: 0;
 } 
 img{
  width: 50%;
@@ -107,15 +51,6 @@ h2{
 }
 .torta2{
     text-align: left;
-}
-.Orari{
-    margin: 1%;
-}
-.Contatti{
-    margin: 1%;
-}
-.Social{
-    margin: 1%;
 }
 p{
     text-align: center;

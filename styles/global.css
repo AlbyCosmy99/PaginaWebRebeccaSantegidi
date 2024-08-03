@@ -1,11 +1,41 @@
-body {
+*{
     margin: 0;
+}
+
+body{
+    font-family: CatchyMager;
+    font-style: normal;
+    color: #efebe5;
+    background-color: #efebe5;
+    margin: 0;
+}
+
+a{
+    color: #efebe5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #acacac;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.main-header{
+    background: #623e2a;
 }
 
 .footer {
     width: 100%;
     max-width: 100%;
-    padding:1%;
+    padding:0;
     margin: 0 auto;
     background-color: #623e2a;
 }
@@ -26,6 +56,8 @@ body {
     text-decoration: none;
     text-align: center;
     display: block;
+    padding-top: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 .logo:hover{
@@ -37,4 +69,81 @@ body {
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.social1{
+    color: #efebe5;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 120%;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline;
+}
+
+.Orari, .Contatti, .Social{
+    margin: 1%;
+}
+
+.progetto-text {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#623e2a;
+    font-size: 30px;
+}
+
+.text{
+    color: #623e2a;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.subcontainer{
+    text-align: center;
+    width: 100%;
+    height: 40em;
+    border: 1px solid;
+    padding-bottom: 10%;
+
+}
+#cal{
+    width: 80%;
+    height: 40em;
+    border: 1px solid #623e2a;
+}
+
+.review{
+	border-width: 2px;
+    border-color: darkgrey;
+    border-style: solid;
+    width: 50%;
+	display:flex;
+	justify-content: space-evenly;
+	margin-top: 1%;
 }

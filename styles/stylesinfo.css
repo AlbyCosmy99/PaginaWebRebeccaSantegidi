@@ -4,67 +4,6 @@
     src: url("assets/Catchy Mager Regular.ttf");
 }
 
-
-
-
-body{
-    font-family: CatchyMager;
-    font-style: normal;
-    color: #efebe5;
-    background-color: #efebe5;
-}
-
-a{
-    color: #efebe5;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #acacac;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-.main-header{
-    background: #623e2a;
-}
-
-.container {
-	width: 100%;
-	max-width: 100%;
-	margin: 0 auto;
-}
-
-.main-header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.main-nav ul {
-
-	text-align: center;
-}
-.main-nav li {
-	display: inline;
-}
-.main-nav a {
-	display: inline-block;
-	padding: .5em 1.5em;
-}
-
-.caption{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color:#623e2a;
-    font-size: 30px;
-}
-
 .mappa{
     width:100;
     max-width: 100%;
@@ -125,13 +64,4 @@ h1{
 
 h2{
     color: #623e2a;
-}
-.Orari{
-margin: 1%;
-}
-.Contatti{
-margin: 1%;
-}
-.Social{
-margin: 1%;
 }
