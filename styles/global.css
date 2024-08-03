@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding:1%;
+    margin: 0 auto;
+    background-color: #623e2a;
+}
+
+.social{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.logo:hover{
+    color: #efebe5;
+}
+
+.footer-desc {
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

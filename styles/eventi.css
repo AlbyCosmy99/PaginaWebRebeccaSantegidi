@@ -1,10 +1,7 @@
-
-
 @font-face {
     font-family: CatchyMager;
     src: url("assets/Catchy Mager Regular.ttf");
 }
-
 
 
 body{
@@ -21,15 +18,6 @@ a{
 
 a:hover{
     color: #acacac;
-}
-
-.logo{
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.logo:hover{
-    color: #efebe5;
 }
 
 .underline{
@@ -87,9 +75,10 @@ p{
     color: #efebe5;
     text-align: left;
 } 
-.Social1{
+.social1{
     color: #efebe5;
     text-align: left;
+    padding: 0;
 } 
 img{
  padding-top: 5%;
@@ -118,13 +107,6 @@ button:hover{
     border: 0;
     background: #623e2a;
     color: #efebe5;
-}
-.footer {
-    width: 100%;
-    max-width: 100%;
-    padding:1%;
-    margin: 0 auto;
-    background-color: #623e2a;
 }
 .Orari{
 margin: 1%;

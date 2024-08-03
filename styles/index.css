@@ -22,15 +22,6 @@ a:hover{
     color: #acacac;
 }
 
-.logo{
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.logo:hover{
-    color: #efebe5;
-}
-
 .underline{
     text-decoration: underline;
 }
@@ -87,9 +78,10 @@ p{
     color: #efebe5;
     text-align: left;
 } 
-.Social1{
+.social1{
     color: #efebe5;
     text-align: left;
+    padding: 0;
 } 
 img{
  width: 50%;
@@ -116,14 +108,6 @@ h2{
 .torta2{
     text-align: left;
 }
-
-    .footer {
-        width: 100%;
-        max-width: 100%;
-        padding:1%;
-        margin: 0 auto;
-        background-color: #623e2a;
-    }
 .Orari{
     margin: 1%;
 }

@@ -33,15 +33,6 @@ a:hover{
     color: #acacac;
 }
 
-.logo{
-    font-size: 30px;
-    text-decoration: none;
-}
-
-.logo:hover{
-    color: #efebe5;
-}
-
 .underline{
     text-decoration: underline;
 }
@@ -155,13 +146,6 @@ h1{
     justify-content: space-evenly;
     flex-direction: column;
     padding-bottom: 5%;
-}
-.footer {
-    width: 100%;
-    max-width: 100%;
-    padding:1%;
-    margin: 0 auto;
-    background-color: #623e2a;
 }
 .Orari{
 margin: 1%;
