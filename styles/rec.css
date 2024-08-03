@@ -1,0 +1,174 @@
+
+
+@font-face {
+    font-family: CatchyMager;
+    src: url("assets/Catchy Mager Regular.ttf");
+}
+
+@media screen and(max-width:1680px)and(min-width:1050px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and(max-width:320px){
+    .piechart_3d{
+        height: 200px;
+        width: 100px;
+    }
+}
+
+body{
+    font-family: CatchyMager;
+    font-style: normal;
+    color: #efebe5;
+    background-color: #efebe5;
+}
+
+a{
+    color: #efebe5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #acacac;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #efebe5;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.main-header{
+    background: #623e2a;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0%;
+}
+    
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#623e2a;
+    font-size: 30px;
+}
+
+.text{
+    color: #623e2a;
+    text-align:center;
+    padding-top: 455px;
+    
+}
+.textuno{
+    color: #623e2a;
+    text-align:center;
+    padding-top: 455px;
+}
+
+.review-container
+{
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.review
+{
+	border-width: 2px;
+    border-color: darkgrey;
+    border-style: solid;
+    width: 50%;
+	display:flex;
+	justify-content: space-evenly;
+	margin-top: 1%;
+}
+
+
+.user-foto-rounded
+{
+	border-radius: 50%;
+	height: 100px;
+	
+}
+
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: gray;
+}
+
+.user-rating
+{
+	display:flex;
+	justify-content: center;
+    align-items: flex-start;
+	flex-direction: column;
+}
+
+.text-review
+{
+	color:black;
+}
+h1{
+    color: #623e2a;
+    text-align: center;
+}
+
+#piechart_3d{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding:1%;
+    margin: 0 auto;
+    background-color: #623e2a;
+}
+.Orari{
+margin: 1%;
+}
+.Contatti{
+margin: 1%;
+}
+.Social{
+margin: 1%;
+}

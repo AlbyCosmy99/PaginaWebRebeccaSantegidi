@@ -1,0 +1,137 @@
+
+
+@font-face {
+    font-family: CatchyMager;
+    src: url("assets/Catchy Mager Regular.ttf");
+}
+
+
+
+body{
+    font-family: CatchyMager;
+    font-style: normal;
+    color: #efebe5;
+    background-color: #efebe5;
+}
+
+a{
+    color: #efebe5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #acacac;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #efebe5;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.main-header{
+    background: #623e2a;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0%;
+}
+    
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+h1{
+    color: #623e2a;
+    text-align: center;
+    padding-top: 2%;
+}
+h2{
+    text-align: center;
+    color: #623e2a;
+}
+p{
+    color:#623e2a;
+    font-size: 120%;
+    text-align: center;
+}
+.OrariUfficio{
+    color: #efebe5;
+    text-align: left;
+} 
+.Contatti1{
+    color: #efebe5;
+    text-align: left;
+} 
+.Social1{
+    color: #efebe5;
+    text-align: left;
+} 
+img{
+ padding-top: 5%;
+ width: 50%;
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+.richiediinformazioni{
+    padding-bottom: 5%;
+}  
+button{
+
+    text-align: center;
+    color: #623e2a;
+    background: #efebe5;
+    border: 2px solid #623e2a;
+    font-size: 30px;
+    border-radius: 60px;
+    position:relative;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover{
+    border: 0;
+    background: #623e2a;
+    color: #efebe5;
+}
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding:1%;
+    margin: 0 auto;
+    background-color: #623e2a;
+}
+.Orari{
+margin: 1%;
+}
+.Contatti{
+margin: 1%;
+}
+.Social{
+margin: 1%;
+}

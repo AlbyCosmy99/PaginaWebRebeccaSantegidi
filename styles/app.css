@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: CatchyMager;
+    src: url("assets/Catchy Mager Regular.ttf");
+}
+@media screen and(max-width:1680px)and(min-width:1050px){
+    h1{
+        font-size: 30px;
+    }
+}
+body{
+    font-family: CatchyMager;
+    font-style: normal;
+    color: #efebe5;
+    background-color: #efebe5;
+}
+
+a{
+    color: #efebe5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #acacac;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #efebe5;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.main-header{
+    background: #623e2a;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0%;
+}
+    
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#623e2a;
+    font-size: 30px;
+}
+.text{
+    color: #623e2a;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.subcontainer{
+    text-align: center;
+    width: 100%;
+    height: 40em;
+    border: 1px solid;
+    padding-bottom: 10%;
+
+}
+#cal{
+    width: 80%;
+    height: 40em;
+    border: 1px solid #623e2a;
+}
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding:1%;
+    margin: 0 auto;
+    background-color: #623e2a;
+}
+.Orari{
+margin: 1%;
+}
+.Contatti{
+margin: 1%;
+}
+.Social{
+margin: 1%;
+}
+
+
+
+
+
+

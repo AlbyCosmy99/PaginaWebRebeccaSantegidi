@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: CatchyMager;
+    src: url("assets/Catchy Mager Regular.ttf");
+}
+
+
+
+
+body{
+    font-family: CatchyMager;
+    font-style: normal;
+    color: #efebe5;
+    background-color: #efebe5;
+}
+
+a{
+    color: #efebe5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #acacac;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #efebe5;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.main-header{
+    background: #623e2a;
+}
+
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#623e2a;
+    font-size: 30px;
+}
+
+.mappa{
+    width:100;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.contenitore{
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    display:table;
+    margin-top: 20px;
+    margin-left: 38%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: solid 2px #623e2a;
+    background-color: #efebe5;
+    
+    
+}
+form textarea{
+    display: table-row;
+    padding-right: 5px;
+}
+
+div.tableRow{
+    display: table-row;
+    
+}
+div.tableRow p{
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    color: #623e2a;
+    
+   
+}
+div.tableRow p:first-child{
+    text-align:center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    color: #623e2a;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+h2{
+    color: #623e2a;
+}
+.footer {
+    width: 100%;
+    max-width: 100%;
+    padding:1%;
+    margin: 0 auto;
+    background-color: #623e2a;
+}
+.Orari{
+margin: 1%;
+}
+.Contatti{
+margin: 1%;
+}
+.Social{
+margin: 1%;
+}
