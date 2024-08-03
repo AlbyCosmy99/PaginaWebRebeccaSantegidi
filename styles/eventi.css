@@ -1,45 +1,13 @@
-h2{
-    text-align: center;
-    color: #623e2a;
-}
+
 p{
     color:#623e2a;
     font-size: 120%;
     text-align: center;
 }
-.OrariUfficio{
-    color: #efebe5;
-    text-align: left;
-} 
-.Contatti1{
-    color: #efebe5;
-    text-align: left;
-} 
 img{
- padding-top: 5%;
+ padding-top: 1rem;
  width: 50%;
  height: auto;
  display: block;
  margin: 0 auto;
-}
-.richiediinformazioni{
-    padding-bottom: 5%;
-}  
-button{
-
-    text-align: center;
-    color: #623e2a;
-    background: #efebe5;
-    border: 2px solid #623e2a;
-    font-size: 30px;
-    border-radius: 60px;
-    position:relative;
-    display: block;
-    margin: 0 auto;
-}
-
-button:hover{
-    border: 0;
-    background: #623e2a;
-    color: #efebe5;
 }

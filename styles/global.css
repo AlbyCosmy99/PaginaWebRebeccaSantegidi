@@ -64,7 +64,64 @@ a:hover{
     padding-top: 0.7rem;
     margin-bottom: 0.5rem;
 }
+#logo{
+    color: #623e2a;
+    text-align: center;
+}
 
+.OrariUfficio{
+    color: #efebe5;
+    text-align: left;
+}
+
+#richiediinfo {
+    margin-top: 1rem;
+}
+
+.richiediinformazioni{
+    padding-bottom: 5%;
+}  
+#location{
+    text-align: center;
+}
+#torte{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.torta2{
+    text-align: left;
+}
+
+button{
+    text-align: center;
+    color: #623e2a;
+    background: #efebe5;
+    border: 2px solid #623e2a;
+    font-size: 30px;
+    border-radius: 60px;
+    position:relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#infoform {
+    border: 0;
+    margin: auto;
+}
+
+button:hover{
+    border: 0;
+    background: #623e2a;
+    color: #efebe5;
+}
+
+.Contatti1{
+    color: #efebe5;
+    text-align: left;
+}
+#fiori{
+    text-align: center;
+}
 .logo:hover{
     color: #efebe5;
 }
@@ -161,4 +218,152 @@ h1{
 #title {
     color: #efebe5;
     font-size: 2rem;
+}
+
+@media screen and(max-width:1680px)and(min-width:1050px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and(max-width:1680px)and(min-width:1050px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and(max-width:320px){
+    .piechart_3d{
+        height: 200px;
+        width: 100px;
+    }
+}
+
+.textuno{
+    color: #623e2a;
+    text-align:center;
+    padding-top: 455px;
+}
+
+.review-container
+{
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-foto-rounded
+{
+	border-radius: 50%;
+	height: 100px;
+	
+}
+
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: gray;
+}
+
+.user-rating
+{
+	display:flex;
+	justify-content: center;
+    align-items: flex-start;
+	flex-direction: column;
+}
+
+.mappa{
+    width:100;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.contenitore{
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    display:table;
+    margin-top: 20px;
+    margin-left: 38%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: solid 2px #623e2a;
+    background-color: #efebe5;
+    
+    
+}
+form textarea{
+    display: table-row;
+    padding-right: 5px;
+}
+
+div.tableRow{
+    display: table-row;
+    
+}
+div.tableRow p{
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    color: #623e2a;
+}
+.OrariUfficio{
+    color: #efebe5;
+    text-align: left;
+}
+.feste, .matrimoni{
+    margin: 1rem;
+}
+
+
+.index-img{
+    width: 50%;
+}
+.Contatti1{
+    color: #efebe5;
+    text-align: left;
+} 
+
+.videotavolo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}  
+
+h2{
+    text-align: center;
+    color: #623e2a;
+}
+
+div.tableRow p:first-child{
+    text-align:center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.text-review
+{
+	color:black;
+}
+
+#piechart_3d{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
 }
