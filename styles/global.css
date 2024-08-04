@@ -253,11 +253,16 @@ h1{
     justify-content: space-evenly;
 }
 
+.user-foto {
+    margin-right: 1rem;
+}
+
 .user-foto-rounded
 {
 	border-radius: 50%;
 	height: 100px;
-	
+    width: 100%;
+	margin: 0.3rem;
 }
 
 .checked {
