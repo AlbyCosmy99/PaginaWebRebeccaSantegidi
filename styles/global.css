@@ -281,6 +281,35 @@ h1{
 	flex-direction: column;
 }
 
+.pressContainer {
+    margin-top: 1rem; 
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.d-custom-flex {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .d-custom-flex {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 0.5rem;
+    }
+    .pressContainer {
+        margin: 0;
+    }
+}
+
+.flex-custom-column {
+    flex-direction: column;
+}
+
+.flex-content-center-custom {
+    justify-content: center;
+}
+
 .mappa{
     width:100;
     max-width: 100%;
