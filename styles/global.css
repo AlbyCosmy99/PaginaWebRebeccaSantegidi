@@ -281,10 +281,96 @@ h1{
 	flex-direction: column;
 }
 
+.presContainer {
+    margin-top: 1rem; 
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.d-custom-flex {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .d-custom-flex {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 0.5rem;
+    }
+    .presContainer {
+        margin: 0;
+    }
+}
+
+.flex-custom-column {
+    flex-direction: column;
+}
+
+.flex-content-center-custom {
+    justify-content: center;
+}
+
+/* Ensure elements do not exceed the width of the viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding for spacing */
+    box-sizing: border-box;
+}
+
+/* Flex container for images */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Add spacing between flex items */
+}
+
+/* Each image container */
+.flex-container > div {
+    position: relative;
+    width: 25%; /* Default to a third of the container width */
+}
+
+.flex-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.flex-container p {
+    position: absolute;
+    background-color: #ff370f;
+    color: #ffeae6;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    bottom: -3rem;
+    padding: 10px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;    /* Center items horizontally */
+    }
+
+    .flex-container > div {
+        width: 100%; /* Make each item take full width */
+        margin-bottom: 20px; /* Add some spacing between items */
+    }
+}
+
+
 .mappa{
     width:100;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -294,6 +380,10 @@ h1{
 .contenitore{
     text-align: center;
     align-items: center;
+}
+
+.footer-element {
+    margin-left: 0.5rem;
 }
 
 form{
@@ -385,4 +475,44 @@ div.tableRow p:first-child{
     width: 50%;
     margin: auto;
     margin-top: 2rem;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #efebe5;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        width: 100%;
+        background-color: #623e2a;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .main-nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav-list li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-nav.active {
+        display: block;
+    }
 }

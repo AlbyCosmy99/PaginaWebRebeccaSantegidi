@@ -1,4 +1,3 @@
 - aggiungere più contenuti (paragrafi di testo, immagini e video) sulle pagine appuntamenti e recensioni 
 - al calendario mancano i permessi di visualizzazione
 - il menu deve essere di tipo burger
-- usa un unico file css
