@@ -310,10 +310,67 @@ h1{
     justify-content: center;
 }
 
+/* Ensure elements do not exceed the width of the viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding for spacing */
+    box-sizing: border-box;
+}
+
+/* Flex container for images */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Add spacing between flex items */
+}
+
+/* Each image container */
+.flex-container > div {
+    position: relative;
+    width: 25%; /* Default to a third of the container width */
+}
+
+.flex-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.flex-container p {
+    position: absolute;
+    background-color: #ff370f;
+    color: #ffeae6;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    bottom: -3rem;
+    padding: 10px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;    /* Center items horizontally */
+    }
+
+    .flex-container > div {
+        width: 100%; /* Make each item take full width */
+        margin-bottom: 20px; /* Add some spacing between items */
+    }
+}
+
+
 .mappa{
     width:100;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
