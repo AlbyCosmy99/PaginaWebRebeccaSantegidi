@@ -325,6 +325,10 @@ h1{
     align-items: center;
 }
 
+.footer-element {
+    margin-left: 0.5rem;
+}
+
 form{
     display:table;
     margin-top: 20px;
