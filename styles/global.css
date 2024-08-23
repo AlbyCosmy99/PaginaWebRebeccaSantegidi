@@ -13,6 +13,8 @@ body{
     color: #efebe5;
     background-color: #efebe5;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -46,6 +48,16 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+}
+
+.hamburger {
+    margin: 0;
 }
 
 .social{
@@ -195,9 +207,13 @@ button:hover{
     width: 100%;
     height: 40em;
     border: 1px solid;
-    padding-bottom: 10%;
-
+    margin-bottom: 8rem;
 }
+
+iframe {
+    margin-top: 1rem;
+}
+
 #cal{
     width: 80%;
     height: 40em;
