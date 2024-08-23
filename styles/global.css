@@ -275,6 +275,7 @@ h1{
 
 .user-foto {
     margin-right: 1rem;
+    flex: 15%;
 }
 
 .user-foto-rounded
@@ -299,6 +300,7 @@ h1{
 	justify-content: center;
     align-items: flex-start;
 	flex-direction: column;
+    flex:85%;
 }
 
 .presContainer {
@@ -534,5 +536,11 @@ div.tableRow p:first-child{
 
     .main-nav.active {
         display: block;
+    }
+    .review {
+        width: 100%;
+    }
+    .flex-container {
+        margin: 1rem;
     }
 }
