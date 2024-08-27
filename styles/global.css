@@ -513,6 +513,11 @@ div.tableRow p:first-child{
         display: block;
     }
 
+    .footer-element {
+        margin-left: 0.5rem;
+        font-size: 11px;
+    }
+
     .main-nav {
         display: none;
         width: 100%;
