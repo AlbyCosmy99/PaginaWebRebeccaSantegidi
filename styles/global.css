@@ -563,6 +563,6 @@ div.tableRow p:first-child{
 
     .responsive-iframe-container iframe {
         width: 100%;
-        height: calc(100vw * 9 / 16);
+        height: calc(100vw * 9 / 16); /* 16:9 aspect ratio */
     }
 }
