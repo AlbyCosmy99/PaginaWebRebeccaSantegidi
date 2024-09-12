@@ -65,6 +65,10 @@ a:hover{
     z-index: 1000;
 }
 
+.choosen {
+    border-bottom: 2px solid white;
+}
+
 .hamburger {
     margin: 0;
 }
