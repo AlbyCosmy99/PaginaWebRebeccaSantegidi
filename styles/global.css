@@ -571,3 +571,26 @@ div.tableRow p:first-child{
         height: calc(100vw * 9 / 16); /* 16:9 aspect ratio */
     }
 }
+
+.recDesc {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .recDesc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .recDesc {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .recDesc {
+        font-size: 22px;
+    }
+}
+
