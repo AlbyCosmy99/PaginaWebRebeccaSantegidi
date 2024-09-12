@@ -4,7 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../styles/global.css">
         <title>Richiesta informazioni</title>
+        <script>
+            //comportamento navbar per mobile
+            document.addEventListener("DOMContentLoaded", function() {
+                const hamburger = document.getElementById("hamburger-menu");
+                const nav = document.getElementById("main-nav");
 
+                hamburger.addEventListener("click", function() {
+                    nav.classList.toggle("active");
+                });
+            });
+        </script>
     </head>
     <body>
         <header class="main-header">
@@ -73,8 +83,7 @@
         <h1>Dove Trovarci</h1>
         <h2 style="text-align: center;">Clicca sulla mappa, apri il tuo navigatore e vienici a trovare!<br> Ti aspettiamo!</h2>
         <div class="mappa">
-            <iframe src="https://www.google.com/maps/d/embed?mid=14iMT0DIL_G1pZ559OfZC0czI3byp6nM&ehbc=2E312F" width="900"
-                height="700"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.4488982819335!2d12.672772775963177!3d42.94774377114432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132e8599125cc7f1%3A0x91af21f0df1a65ac!2sVia%20Maceratola%2C%2049%2C%2006034%20Maceratola%20PG!5e0!3m2!1sit!2sit!4v1726143124301!5m2!1sit!2sit" width="900" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <footer class="footer">

@@ -6,6 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/global.css">
         <title> Tre-events</title>
+        <script>
+            //comportamento navbar per mobile
+            document.addEventListener("DOMContentLoaded", function() {
+                const hamburger = document.getElementById("hamburger-menu");
+                const nav = document.getElementById("main-nav");
+
+                hamburger.addEventListener("click", function() {
+                    nav.classList.toggle("active");
+                });
+            });
+        </script>
     </head>
     <body>
         <header class="main-header">

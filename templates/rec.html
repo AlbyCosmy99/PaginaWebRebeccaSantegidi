@@ -8,7 +8,39 @@
    <script src="https://www.gstatic.com/charts/loader.js"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="../styles/global.css">
-   <script src="https://www.gstatic.com/charts/loader.js"></script>
+   <script>
+      //comportamento navbar per mobile
+      document.addEventListener("DOMContentLoaded", function() {
+         const hamburger = document.getElementById("hamburger-menu");
+         const nav = document.getElementById("main-nav");
+
+         hamburger.addEventListener("click", function() {
+            nav.classList.toggle("active");
+         });
+      });
+
+      //chart
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+         var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['1 stella',     2],
+            ['2 stelle',      7],
+            ['3 stelle',  15],
+            ['4 stelle', 200],
+            ['5 stelle',    345]
+         ]);
+
+         var options = {
+            title: 'Recensioni',
+            is3D: false,
+         };
+
+         var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+         chart.draw(data, options);
+      }
+   </script>
    <title>Recensioni</title>
 </head>
 
