@@ -5,6 +5,8 @@
 TRE-EVENTS is a website project created for the **"Web Tools and Data Management" university course** for the client Rebecca Santegidi.  
 The platform showcases the services of an **event organization agency**.
 
+Visit site [here](https://tre-events-showcase-site.onrender.com).
+
 ---
 
 ## 🌟 Features
