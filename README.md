@@ -2,7 +2,7 @@
 
 🎉 **Life is an event, make it unforgettable!**
 
-TRE-EVENTS is a website project created for the **"Web Tools and Data Management" university course**, for a client: Rebecca Santegidi.  
+TRE-EVENTS is a website project created for the **"Web Tools and Data Management" university course** for the client Rebecca Santegidi.  
 The platform showcases the services of an **event organization agency**, combining style, elegance, and usability.  
 
 ---
