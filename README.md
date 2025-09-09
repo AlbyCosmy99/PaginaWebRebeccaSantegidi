@@ -1,4 +1,4 @@
-# TRE-EVENTS
+# TRE-EVENTS - Static Showcase Site
 
 🎉 **Life is an event, make it unforgettable!**
 
@@ -24,4 +24,11 @@ The platform showcases the services of an **event organization agency**, combini
 ## 🛠️ Tech Stack
 - **HTML5** for structure  
 - **CSS3** for design & responsiveness  
-- **JavaScript (vanilla)** for minor interactivity  
+- **JavaScript (vanilla)** for minor interactivity
+
+---
+
+## ⚠️ Disclaimer
+This project is a **showcase website** created for academic purposes only.  
+It is not intended for production use and does not include backend features.
+
